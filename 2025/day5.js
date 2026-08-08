@@ -1,5 +1,3 @@
-const { start } = require('repl');
-
 const input = require('fs').readFileSync('2025/day5.txt', 'utf8');
 
 const [rangesInput, foodsInput] = input.split("\n\n");
